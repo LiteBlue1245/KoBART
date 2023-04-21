@@ -1,5 +1,6 @@
 boto3
 pandas
 pytorch-lightning == 1.2.1
-torch == 1.7.1
+--extra-index-url https://download.pytorch.org/whl/torch_stable.html
+torch == 1.7.1+cu110
 transformers == 4.0.0
